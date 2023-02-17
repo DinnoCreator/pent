@@ -9,7 +9,6 @@ const FindCar = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         width: "100%",
-        height: "500px",
       }}
     >
       <div className="container">

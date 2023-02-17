@@ -5,6 +5,7 @@
     linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
     url("https://cdn.globalcarsbrands.com/wp-content/uploads/2017/12/2018-rolls-royce-dawn-review.jpg");
     display: inline-block;
+    height: 500px;
 }
 
 .first{
@@ -42,4 +43,12 @@
     font-size: 13px;
     font-weight: 700;
     margin-top: 1rem;
+}
+@media (max-width: 378px) {
+    .bonus h1{
+        font-size: 1.9rem;
+    }
+    .ul{
+        font-size: 16px;
+    }
 }
