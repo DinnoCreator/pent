@@ -1,3 +1,3 @@
-const api = "https://pent.onrender.com/";
+const api = "https://pent-api.onrender.com";
 
 export {api}
