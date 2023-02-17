@@ -77,7 +77,7 @@ const LoginView = () => {
   return (
     <>
     
-    <div className="iconpost btn roborobo" onClick={handlePostBack}>
+    <div className="container" onClick={handlePostBack}>
               <h4><i className="fa-solid mt-2 mb-2 fa-chevron-left"></i> Home</h4>
             </div>
       <div className={` mt-5 ${classes.bod}`}>
