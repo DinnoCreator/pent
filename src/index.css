@@ -38,16 +38,16 @@ code {
   grid-template-columns: repeat(2, 1fr);
   font-weight: 700;
 }
-.listGrid:hover p{
+.listGrid:hover p {
   cursor: pointer;
 }
-.listdisplay{
+.listdisplay {
   display: none;
 }
-.listdisplayD{
+.listdisplayD {
   display: block;
 }
-.bottomborder{
+.bottomborder {
   padding-top: 1rem;
   border-top: 1px solid #233953;
 }
@@ -60,7 +60,7 @@ code {
     width: min(95%, 70rem);
     margin-inline: auto;
   }
-  .listborder{
+  .listborder {
     border-left: 1px solid #233953;
     border-right: 1px solid #233953;
     margin-left: 1rem;
@@ -104,14 +104,14 @@ code {
   .grid-row-span-2 {
     grid-row: span 2;
   }
-  .listfoot{
+  .listfoot {
     margin-top: 0;
     padding-top: 0;
   }
-  .listdisplay{
+  .listdisplay {
     display: block;
   }
-  .listdisplayD{
+  .listdisplayD {
     display: none;
   }
 }
@@ -163,12 +163,19 @@ code {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
 @media (max-width: 599px) {
-  .listborder{
+  .listborder {
     border-top: 1px solid #233953;
     border-bottom: 1px solid #233953;
     margin-left: 0;
