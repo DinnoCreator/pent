@@ -2,6 +2,38 @@ import classes from "../homenav/HomeNav.module.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+export const DashNav = () => {
+  let navigate = useNavigate();
+  const handleReload = () => {
+    return window.location.reload()
+  }
+  const handleLogout = () => {
+    sessionStorage.clear();
+    return navigate("/");
+  }
+  return (
+    <div className={`fixed-top ${classes.background}`}>
+      <div className={` container `}>
+        <div className={`hstack grid-container mt-4`}>
+          <img
+          onClick={handleReload}
+            className={classes.logoShow}
+            src="https://www.investopedia.com/thmb/3_niAKi-hqxEto4981WaCes0ZYM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/penfed-credit-union_3x1-4f974162685b43b3b4fa8cc5b00ddb30.png"
+            alt="logo"
+          />
+          <div className={`ms-auto`}>
+            {/* <span className={`${classes.icon} ${classes.search}`}>
+              <i className="fa-solid fa-magnifying-glass"></i>
+              </span> */}
+
+            <span className={`btn ${classes.log}`} onClick={handleLogout}>Logout</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const HomeNav = () => {
   const [show, setShow] = useState(false);
   let navigate = useNavigate();

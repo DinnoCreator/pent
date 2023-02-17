@@ -1,0 +1,57 @@
+.dash {
+  /* Add shadows to create the "card" effect */
+  text-align: center;
+  color: rgb(177, 64, 23);
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 3em;
+}
+
+.hold{
+  /* background-color: #E4E9FD; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 950px) {
+  .hold{
+    padding-bottom: 13%;
+  }
+}
+
+.amount{
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.lR {
+  color: #fff;
+  border: 1px solid white;
+  display: inline-block;
+  background-color: #047dba;
+  cursor: pointer;
+}
+
+.lR:hover {
+  font-size: large;
+  background-color: #616b74;
+}
+
+.padder {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fonte{
+    font-size: xx-large;
+}
+
+.eye{
+  font-size: large;
+}
+.eye:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
