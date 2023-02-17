@@ -1,0 +1,61 @@
+.articleSection{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    background-color: #F4F4F4;
+}
+.back{
+    padding-top: 0;
+    margin-top: 0;
+    color: white;
+    display: block;
+}
+.hold{
+    padding-top: 1rem;
+}
+
+.featured{
+    text-align: center;
+    color: #0A223F;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.back1{
+    background-image: url("https://www.cpp.edu/fas/university-accounting-services/img/credit%20card.jpg");
+}
+.back2{
+    background-image: url("https://mobilehomescorpuschristi.com/wp-content/uploads/2022/02/first-time-mobile-home-buyer-800x524.png");
+}
+.back3{
+    background-image: url("https://www.moneyunder30.com/wp-content/uploads/2020/09/shutterstock_589627091-648x364-c-default.jpg");
+}
+.title{
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    .hold{
+        padding-top: 0;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .featured{
+        line-height: 3;
+    }
+}
+.button{
+    text-align: center;
+    margin: 2rem auto 0;
+    padding-bottom: 2rem;
+}
+.btn{
+    background-color: #047DBA;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}

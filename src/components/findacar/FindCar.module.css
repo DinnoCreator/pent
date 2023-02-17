@@ -1,0 +1,45 @@
+.back{
+    margin-top: 5.5rem;
+    color: white;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
+    url("https://cdn.globalcarsbrands.com/wp-content/uploads/2017/12/2018-rolls-royce-dawn-review.jpg");
+    display: inline-block;
+}
+
+.first{
+    border-bottom: 4px solid #047DBA;
+    width: fit-content;
+    margin-left: 0;
+    padding-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.first h6{
+    font-weight: 800;
+    font-size: 12px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.bonus h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.ul{
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn{
+    background-color: #047DBA;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.offer{
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 1rem;
+}

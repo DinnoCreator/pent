@@ -1,0 +1,42 @@
+.back{
+    margin-top: 1rem;
+    color: white;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZ1l1FUOKu2KxuRvO4Yp5SfRvb4onJJgCyA&usqp=CAU");
+    display: inline-block;
+}
+
+.heading h1{
+    color: #000;
+    font-family: gotham,arial,helvetica,sans-serif;
+    font-size: 2pc;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 40px;
+    margin: 0;
+    padding: 2pc 1pc 1pc;
+}
+
+.backdiv{
+    margin-top: 1rem;
+}
+
+.backdiv p,ul{
+    color: #E7EAEF;
+}
+
+.backdiv p{
+    line-height: 0.5;
+}
+.backdivl p{
+    line-height: 1.5;
+}
+
+.btn{
+    color: #047DBA;
+    border: 2px solid #047DBA;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

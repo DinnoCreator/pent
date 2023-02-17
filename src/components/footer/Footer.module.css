@@ -1,0 +1,41 @@
+.footer{
+    background-color: #0A223F;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-top: 0;
+}
+.img{
+    margin: 2rem 0.5rem;
+}
+.img:hover{
+    cursor: pointer;
+}
+.colour{
+    color: #959FAC;
+}
+.colour1{
+    color: #AFB6C0;
+}
+.colour1 h6{
+    font-weight: 700;
+}
+.colour1 div{
+    font-weight: 700;
+}
+.talk{
+    padding-top: 2rem;
+}
+/* .divider{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+} */
+@media (max-width: 599px) {
+    .talkmore{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .talk{
+        padding-top: 1rem;
+    }
+}

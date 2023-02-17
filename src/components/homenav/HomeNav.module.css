@@ -1,0 +1,128 @@
+.background{
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+.body {
+  color: white;
+  background-color: #0c264b;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  padding-top: 1.5rem;
+  overflow-x: auto;
+}
+
+.log {
+  background-color: #047dba;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  margin-right: 1rem;
+}
+.logo {
+  width: 130px;
+}
+.logoShow {
+  width: 150px;
+}
+.logoShow:hover {
+  cursor: pointer;
+}
+.icon {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  background-color: white;
+  display: inline-block;
+  color: #047dba;
+  font-size: 2rem;
+  border-radius: 10%;
+}
+.iconShow {
+  top: 0.3rem;
+  position: relative;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  background-color: white;
+  display: inline-block;
+  color: #0c264b;
+  font-size: 1.5rem;
+  border-radius: 10%;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.iconShow:hover {
+  cursor: pointer;
+}
+.search {
+  text-align: center;
+  padding-top: 0.4rem;
+  padding-bottom: 0.1rem;
+  margin-right: 1.4rem;
+  font-size: 1.6rem;
+}
+
+.search i {
+  margin-bottom: 0.4rem;
+}
+
+.stripNav {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.stripNavLeft {
+  display: inline-block;
+  font-weight: 100;
+  color: #e5eaf3;
+}
+.stripNavCenter {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.stripNavCenter h6 {
+  font-weight: 800;
+  color: #e5eaf3;
+}
+.stripNavRight {
+  display: inline-block;
+  color: #e5eaf3;
+}
+.foot {
+  font-size: 13px;
+  color: #d9e0ec;
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.button {
+  background-color: #047dba;
+  color: #e5eaf3;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 573px) {
+    .stripNav {
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+    }
+    .stripNav:hover{
+        cursor: pointer;
+    }
+    .foot:hover{
+        cursor: pointer;
+    }
+    .stripNavLeft h1{
+        font-size: 22px;
+    }
+    .footer{
+        margin-top: 3rem;
+    }
+  }
