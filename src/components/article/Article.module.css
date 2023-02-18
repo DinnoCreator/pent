@@ -48,6 +48,14 @@
         line-height: 3;
     }
 }
+@media (max-width: 430px) {
+    .title h5{
+        font-size: 0.9rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .button{
     text-align: center;
     margin: 2rem auto 0;
