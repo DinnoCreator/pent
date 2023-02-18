@@ -14,7 +14,7 @@ const Article = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 width: "100%",
-                height: "150px",
+                height: "180px",
               }}
             ></div>
             <div className={`${classes.title} cardBottom`}>
@@ -31,7 +31,7 @@ const Article = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 width: "100%",
-                height: "150px",
+                height: "180px",
               }}
             ></div>
             <div className={`${classes.title} cardBottom`}>
@@ -48,7 +48,7 @@ const Article = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 width: "100%",
-                height: "150px",
+                height: "180px",
               }}
             ></div>
             <div className={`${classes.title} cardBottom`}>
