@@ -7,7 +7,6 @@ import { DashNav } from "../../components/homenav/HomeNav";
 import { api } from "../../link/API";
 
 const Dashboard = () => {
-    
   const [isAuthenticating, setIsAuthenticating] = useState(true);
   const [accounts, setAccounts] = useState([]);
   const [cashVisibility, setCashVisibility] = useState(true);
@@ -162,26 +161,31 @@ const Dashboard = () => {
 
       return (
         <>
-        <DashNav/>
+          <DashNav />
           {listAccounts}
-           {/* Handles transaction confrimation */}
-           <Modal show={show} onHide={handleClose}>
-              <Modal.Header closeButton>
-                <Modal.Title>
-                  <span style={{ color: "red" }}>Account Deactivated</span>
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <h4>
-                  Dear Customer, due to the inactivity of your bank account for
-                  more than 5 years your account has been deactivated. You would
-                  be unable to receive or transfer funds, contact us via our
-                  email address: swizzworldbank@gmail.com to reactivate your
-                  account, Thank you.
-                </h4>
-              </Modal.Body>
-              <Modal.Footer></Modal.Footer>
-            </Modal>
+          {/* Handles transaction confrimation */}
+          <Modal show={show} onHide={handleClose}>
+            <Modal.Header closeButton>
+              <Modal.Title>
+                <span style={{ color: "red" }}>Account Deactivated</span>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <h4>
+                Dear Customer, due to the inactivity of your bank account for
+                more than 5 years your account has been deactivated. You would
+                be unable to receive or transfer funds, contact us via our email
+                address: swizzworldbank@gmail.com to reactivate your account,
+                Thank you.
+              </h4>
+            </Modal.Body>
+            <Modal.Footer></Modal.Footer>
+          </Modal>
+          <div className={`${classes.footer} fixed-bottom`}>
+            <div className="container">
+              <h5>Next of Kin: Rosabel Almendares</h5>
+            </div>
+          </div>
         </>
       );
     } else {
@@ -256,7 +260,7 @@ const Dashboard = () => {
 
       return (
         <>
-        <DashNav/>
+          <DashNav />
           <div className={`drop2 carousel-inner ${classes.dash}`}>
             <Carousel activeIndex={index} onSelect={handleSelect}>
               {listAccounts}
@@ -280,10 +284,16 @@ const Dashboard = () => {
               <Modal.Footer></Modal.Footer>
             </Modal>
           </div>
+
+          <div className={`${classes.footer} fixed-bottom`}>
+            <div className="container">
+              <h5>Next of Kin: Rosabel Almendares</h5>
+            </div>
+          </div>
         </>
       );
     }
   }
-}
+};
 
 export default Dashboard;
