@@ -41,8 +41,8 @@
 @media (max-width: 600px) {
     .hold{
         padding-top: 0;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
     .featured{
         line-height: 3;
