@@ -48,6 +48,10 @@
         line-height: 3;
     }
 }
+.title h5{
+    margin-left: auto;
+    margin-right: auto;
+}
 @media (max-width: 430px) {
     .title h5{
         font-size: 0.9rem;
