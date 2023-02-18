@@ -78,8 +78,8 @@ const Dashboard = () => {
             className="carousel drop2 slide"
             data-bs-touch="true"
           >
-            <div className={`carousel-inner drop2 ${classes.dash}`}>
-              <div className="carousel-item drop2 active">
+            <div className={`carousel-inner ${classes.dash}`}>
+              <div className="carousel-item active">
                 <h2 className={`${classes.amount}`}>
                   {cashVisibility ? (
                     <>
