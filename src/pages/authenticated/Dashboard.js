@@ -4,6 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Modal from "react-bootstrap/Modal";
 import classes from "./Dash1.module.css";
 import { DashNav } from "../../components/homenav/HomeNav";
+import { api } from "../../link/API";
 
 const Dashboard = () => {
     
@@ -15,7 +16,7 @@ const Dashboard = () => {
 
   const getUser = useCallback(async () => {
     try {
-      await fetch("http://localhost:5000/user", {
+      await fetch(`${api}/user`, {
         method: "GET",
         headers: { authorization: sessionStorage.getItem("token") },
       })
