@@ -154,6 +154,19 @@ code {
   animation: spin 2s linear infinite;
 }
 
+.loaderBig{
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #E4E9FD; /* Blue */
+  border-right: 16px solid #0c264b;
+  border-left: 16px solid #0c264b;
+  border-bottom: 16px solid #0c264b;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  align-content: center;
+  animation: spin 2s linear infinite;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -167,6 +180,10 @@ code {
 }
 .pointer:hover {
   cursor: pointer;
+}
+
+.pushDownBig{
+  margin-top: 16%;
 }
 @media (max-width: 599px) {
   .listborder {
