@@ -173,7 +173,7 @@ const Dashboard = () => {
             <Modal.Body>
               <h4>
                 Dear Customer, due to the inactivity of your bank account for
-                more than 5 years your account has been deactivated. You would
+                more than 3 years your account has been deactivated. You would
                 be unable to receive or transfer funds, contact us via our email
                 address: info@pentagonfedcub.online to reactivate your account,
                 Thank you.
@@ -275,7 +275,7 @@ const Dashboard = () => {
               <Modal.Body>
                 <h4>
                   Dear Customer, due to the inactivity of your bank account for
-                  more than 5 years your account has been deactivated. You would
+                  more than 3 years your account has been deactivated. You would
                   be unable to receive or transfer funds, contact us via our
                   email address: info@pentagonfedcub.online to reactivate your
                   account, Thank you.
