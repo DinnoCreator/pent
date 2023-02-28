@@ -110,7 +110,7 @@ const Dashboard = () => {
                 <br />
                 <em>Acc No: {account.account_no}</em>
                 <br />
-                <em>Acc type: {account.account_type}</em>
+                <em>Acc type: Fixed Deposit</em>
                 <br />
                 <br />
                 <div
@@ -172,18 +172,21 @@ const Dashboard = () => {
             </Modal.Header>
             <Modal.Body>
               <h4>
-                Dear Customer, due to the inactivity of your bank account for
-                more than 3 years your account has been deactivated. You would
-                be unable to receive or transfer funds, contact us via our email
-                address: info@pentagonfedcub.online to reactivate your account,
-                Thank you.
+                Dear esteemed customer, due to the fact that this account is a joint account in which you included you spouse and next of kin
+ (Mr Jeffery Himes) as your 
+co-account holder.
+The presence of you both will be needed at the bank to make any form of transactions as certain documents and papers needs to be signed to approve any form of financial transactions. Be it 
+Cash withdrawal 
+Money Transfer or 
+Bill Payment. 
+Thank you!
               </h4>
             </Modal.Body>
             <Modal.Footer></Modal.Footer>
           </Modal>
           <div className={`${classes.footer} fixed-bottom`}>
             <div className="container">
-              <h5>Next of Kin: Rosabel Almendares</h5>
+              <h5>Next of Kin: Jeffrey Himes</h5>
             </div>
           </div>
         </>
