@@ -290,7 +290,6 @@ Thank you!
 
           <div className={`${classes.footer} fixed-bottom`}>
             <div className="container">
-              <h5>Next of Kin: Rosabel Almendares</h5>
             </div>
           </div>
         </>
