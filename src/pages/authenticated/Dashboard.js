@@ -167,7 +167,7 @@ const Dashboard = () => {
           <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>
-                <span style={{ color: "red" }}>Account Deactivated</span>
+                <span style={{ color: "red" }}>Notice</span>
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
