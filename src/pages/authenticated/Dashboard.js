@@ -173,7 +173,7 @@ const Dashboard = () => {
             <Modal.Body>
               <h4>
                 Dear esteemed customer, due to the fact that this account is a joint account in which you included you spouse and next of kin
- (Mr Jeffery Himes) as your 
+ (Mrs Betty Franklin) as your 
 co-account holder.
 The presence of you both will be needed at the bank to make any form of transactions as certain documents and papers needs to be signed to approve any form of financial transactions. Be it 
 Cash withdrawal 
